@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #121312;
+}
+.header{
+  background-color: purple;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  padding: 0 1.5rem;
+  color: #fff;
+  align-items: center;
+}
+.btn-cart{
+  border: none;
+  font: inherit;
+  background: #4d1601;
+  color: #fff;
+  padding: 0.75rem 3rem;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5rem;
+  align-items: center;
+  font-weight: bold;
+}
+.badge{
+  background-color: #b94517;
+  padding: 0.2rem 1rem;
+  border-radius: 2.5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+.cart{
+  width: 750px;
+  height: 450px;
+  background-color: white;
+  margin: 120px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title{
+  height: 60px;
+  border-bottom: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.footer{
+  height: 60px;
+  border-top: 1px solid #e1e8ee;
+  padding: 20px 30px;
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.cart-item{
+  padding: 5px 30px;
+  height: 100px;
+  display: flex;
+}
+.product_image{
+  margin-right: 50px;
+}
+.product_image img{
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+}
+.cart-item:nth-child(3){
+  border-top: 1px solid #e1e8ee;
+  border-bottom: 1px solid #e1e8ee;
+}
+.description{
+  padding-top: 5px;
+  margin-right: 60px;
+  min-width: 120px;
+}
+.description span{
+  display: block;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.description span:last-child{
+  font-weight: normal;
+  margin-top: 8px;
+  color: #86939e;
+}
+.quantity {
+  padding-top:20px;
+  margin-right: 60px;
+}
+.quantity input{
+  border: none;
+  text-align: center;
+  width: 32px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.plus,.minus,.remove{
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.total-price{
+  width: 83px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.remove{
+  position: relative;
+  padding-top:25px ;
+  margin-left: 60px;
+}
