@@ -47,7 +47,7 @@ function App() {
             <li key={index}>
               <div className="card">
                 <div className="card-title">
-                  <img src={item.flag} alt=" " />
+                  <img src={item.flag} alt="" />
                 </div>
                 <div className="card-body">
                   <div className="card-description">
